@@ -1,0 +1,4 @@
+.cart-food-items {
+    display: flex;
+    flex-direction: column;
+}

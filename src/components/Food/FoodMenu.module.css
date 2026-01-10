@@ -1,0 +1,16 @@
+.food-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    margin: 4rem auto;
+    border-radius: 14px;
+    width: 90%;
+    max-width: 60rem;
+    background-color: white;
+    margin-bottom: 5rem;
+}
+
+.loading, .error {
+    text-align: center;
+    font-size: 1.25rem;
+}

@@ -1,0 +1,57 @@
+.food-item-container {
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.food-item-details {
+    line-height: 0.4rem;
+    width: 90%;
+}
+
+.food-item-details h4 {
+    font-size: 1.25rem;
+}
+
+.food-item-details h3 {
+    font-size: 1.5rem;
+    color: #8a2b06;
+}
+
+.food-item-details p {
+    font-style: italic;
+}
+
+.food-item-add {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding: 1rem;
+}
+
+.food-item-add label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.food-item-add input {
+    width: 3rem;
+    border-radius: 2px;
+    height: 1.25rem;
+    border: 1px solid gray;
+}
+
+.food-item-add button {
+    width: 70%;
+    border-radius: 14px;
+    background-color: #8a2b06;
+    color: white;
+    height: 2rem;
+    justify-self: right;
+}
+
+.food-item-add button:hover,
+.food-item-add button:active {
+    cursor: pointer;
+    background-color: #6b2104;
+}
